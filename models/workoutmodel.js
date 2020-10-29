@@ -29,7 +29,7 @@ const workoutSchema = new Schema({
             type: String,
         }
     }],
-    date: {
+    day: {
         type: Date,
         default: Date.now
     }
