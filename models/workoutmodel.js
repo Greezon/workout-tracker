@@ -21,6 +21,7 @@ const workoutSchema = new Schema({
         },
         weight: {
             type: String,
+            default: 0,
         },
         reps: {
             type: String,
